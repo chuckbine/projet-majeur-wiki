@@ -12,7 +12,7 @@ while true; do
 
   # 1. Copier le contenu de Dropbox vers le dossier local content/
   # rsync met à jour uniquement les fichiers modifiés et supprime ceux effacés dans Dropbox
-  rsync -av --delete --exclude='.obsidian' "$DROPBOX_DIR" "$QUARTZ_DIR/content/" > /dev/null
+  rsync -av --delete --exclude='.obsidian' "$DROPBOX_DIR/*" "$QUARTZ_DIR/content/" > /dev/null
 
   # 2. Vérifier s'il y a des changements pour Git
   if [[ -n $(git status --porcelain) ]]; then
