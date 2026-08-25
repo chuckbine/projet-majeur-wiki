@@ -2,7 +2,7 @@
 
 # Configuration
 INTERVAL=300
-DROPBOX_DIR="/home/fernand/Dropbox/Comite_Entretien/07_PUBLICATIONS_WEB/Wiki-CoopOnze"
+DROPBOX_DIR="/home/fernand/Dropbox/Comite_Entretien/07_PUBLICATIONS_WEB/Wiki-CoopOnze/*"
 QUARTZ_DIR="$(cd "$(dirname "$0")" && pwd)"
 
 echo "Démarrage de la sync Dropbox -> Git -> GitHub (toutes les 5 min)..."
@@ -12,7 +12,7 @@ while true; do
 
   # 1. Copier le contenu de Dropbox vers le dossier local content/
   # rsync met à jour uniquement les fichiers modifiés et supprime ceux effacés dans Dropbox
-  rsync -av --delete --exclude='.obsidian' "$DROPBOX_DIR/*" "$QUARTZ_DIR/content/" > /dev/null
+  rsync -av --delete --exclude='.obsidian' "$DROPBOX_DIR" "$QUARTZ_DIR/content/" > /dev/null
 
   # 2. Vérifier s'il y a des changements pour Git
   if [[ -n $(git status --porcelain) ]]; then
