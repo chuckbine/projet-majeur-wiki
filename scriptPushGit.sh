@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Configuration
-INTERVAL=900
+INTERVAL=1200
 DROPBOX_DIR="/home/fernand/Dropbox/Comite_Entretien/07_PUBLICATIONS_WEB/Wiki-CoopOnze/"
 QUARTZ_DIR="$(cd "$(dirname "$0")" && pwd)"
 
