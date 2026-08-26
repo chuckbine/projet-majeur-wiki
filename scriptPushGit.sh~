@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Configuration
-INTERVAL=1200
+INTERVAL=600
 DROPBOX_DIR="/home/fernand/Dropbox/Comite_Entretien/07_PUBLICATIONS_WEB/Wiki-CoopOnze/"
 QUARTZ_DIR="$(cd "$(dirname "$0")" && pwd)"
 
-echo "Démarrage de la sync Dropbox -> Git -> GitHub (toutes les 5 min)..."
+echo "Démarrage de la sync Dropbox -> Git -> GitHub "
 
 while true; do
   cd "$QUARTZ_DIR"
@@ -14,16 +14,19 @@ while true; do
   # rsync met à jour uniquement les fichiers modifiés et supprime ceux effacés dans Dropbox
   rsync -rtv --delete --no-perms --no-owner --no-group --exclude='.obsidian' --exclude='*~' "$DROPBOX_DIR" "$QUARTZ_DIR/content/" > /dev/null
   # 2. Vérifier s'il y a des changements pour Git
-  if [[ -n $(git status --porcelain) ]]; then
-    echo "$(date '+%Y-%m-%d %H:%M:%S') - Changements détectés dans Dropbox. Push en cours..."
+  # Met à jour l'index Git sans commiter
+  git add -A
+
+  # Vérifie s'il y a de véritables modifications de contenu indexées
+  if ! git diff --cached --quiet; then
+    echo "$(date '+%Y-%m-%d %H:%M:%S') - Changements de contenu détectés. Push en cours..."
     
-    git add -A
     git commit -m "Auto-update : $(date '+%Y-%m-%d %H:%M:%S')"
     git push
     
     echo "$(date '+%Y-%m-%d %H:%M:%S') - Push effectué avec succès."
   else
-    echo "$(date '+%Y-%m-%d %H:%M:%S') - Aucun changement."
+    echo "$(date '+%Y-%m-%d %H:%M:%S') - Aucun changement de contenu."
   fi
 
   sleep $INTERVAL
