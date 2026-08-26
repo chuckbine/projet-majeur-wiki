@@ -1,5 +1,5 @@
 >Réponse : indéterminée
 
-Pour l'instant, il n'y a pas d'échéancier détaillé des travaux.
+Pour l'instant, à ce jour, il n'y a pas d'échéancier détaillé des travaux.
 
 **Pour retourner à la table des matières : [[index]]**
