@@ -2,7 +2,7 @@
 
 # Configuration
 INTERVAL=600
-DROPBOX_DIR="/home/fernand/Dropbox/Comite_Entretien/07_PUBLICATIONS_WEB/Wiki-CoopOnze/"
+DROPBOX_DIR="/home/fernand/Dropbox/Comite_Projets majeurs/Publication_Web/Wiki-CoopOnze/"
 QUARTZ_DIR="$(cd "$(dirname "$0")" && pwd)"
 
 echo "Démarrage de la sync Dropbox -> Git -> GitHub "
