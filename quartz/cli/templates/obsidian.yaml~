@@ -1,8 +1,8 @@
 # yaml-language-server: $schema=../../plugins/quartz-plugins.schema.json
-# Template: ttrpg
-# Obsidian-based setup with map plugin and ITS Theme for TTRPG/D&D wikis.
+# Template: obsidian
+# Optimized for Obsidian vaults with full OFM support and shortest link resolution.
 configuration:
-  pageTitle: des Onze - Projet majeur
+  pageTitle: Quartz 5
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -261,19 +261,13 @@ plugins:
       position: beforeBody
       priority: 15
       display: all
-  # TTRPG-specific plugins
-  - source: github:Requiae/quartz-leaflet-bases-plugin
-    enabled: true
-    options:
-      enableCopyTool: false
   - source:
       name: quartz-themes
       repo: github:saberzero1/quartz-themes
       subdir: plugin
     enabled: true
     options:
-      theme: its-theme
-      variation: ttrpg-dnd
+      theme: default
   - source: github:quartz-community/obsidian-plugin-excalidraw
     enabled: true
     options:
