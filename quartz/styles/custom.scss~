@@ -6,9 +6,3 @@
   grid-template-columns: 300px 1fr !important;
   grid-template-areas: "leftsidebar body" !important;
 }
-.page[data-frame="VALEUR_TROUVÉE"] > #quartz-body {
-  grid-template-columns: <largeur-sidebar-gauche> 1fr; /* retire la 3e colonne */
-  grid-template-areas: "leftsidebar body";
-}
-
-.SELECTEUR_TROUVÉ { display: none !important; }
