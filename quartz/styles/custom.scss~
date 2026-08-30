@@ -10,3 +10,5 @@
   grid-template-columns: <largeur-sidebar-gauche> 1fr; /* retire la 3e colonne */
   grid-template-areas: "leftsidebar body";
 }
+
+.SELECTEUR_TROUVÉ { display: none !important; }
