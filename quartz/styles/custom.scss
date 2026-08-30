@@ -1,4 +1,19 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+#quartz-body {
+  grid-template-columns: minmax(auto, 300px) 1fr !important;
+  grid-template-areas: "leftsidebar center" !important;
+}
 
+.left.sidebar {
+  grid-area: leftsidebar !important;
+}
+
+.center {
+  grid-area: center !important;
+}
+
+.right.sidebar {
+  display: none !important;
+}
