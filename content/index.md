@@ -21,8 +21,6 @@ Objectif : tracer chaque question, indiquer la réponse actuelle, le premier jal
 | [[Q-006-choix-thermopompes\|Q-006]] | Comment se fera le choix des thermopompes et sur quels critères ? | Thermopompes | En attente pro | GRT | 6 – Scénarios financiers |
 | [[Q-007-bornes-de-recharge\|Q-007]] | Combien de bornes de recharge seront installées ? | Électricité | En attente pro | Architecte + ing. méca-élec | 6 – Scénarios financiers |
 | [[Q-008-duree-travaux-sous-sol\|Q-008]] | Des travaux majeurs de sous-sol s'étalent sur combien de temps ? | À confirmer | À confirmer | À confirmer | À confirmer |
-| [[Q-009-fin-renovation-balcons\|Q-009]] | Quand les rénovations des balcons seront-elles terminées ? | À confirmer | Ouvert | À confirmer | À confirmer |
-| [[Q-010-signature-contrat-couvreur\|Q-010]] | Qui s'occupe de signer les contrats avec le couvreur ? | À confirmer | Réponse partielle | À confirmer | À confirmer |
 
 ## Suivi du CA
 
