@@ -11,16 +11,16 @@ Objectif : tracer chaque question, indiquer la réponse actuelle, le premier jal
 
 ## Questions des membres
 
-| ID | Question | Thème | Statut | Prochain retour | Jalon de réponse |
-|----|----------|-------|--------|-----------------|------------------|
-| [[Q-001-systeme-alarme-incendie\|Q-001]] | Le système d'alarme centralisé doit-il être remplacé ou retiré ? | Sécurité incendie | En attente pro | Architecte | 5 – Avant-projet |
-| [[Q-002-vidage-des-lockers\|Q-002]] | Les lockers devront-ils être vidés, et à quel moment ? | Sous-sol / entreposage | Réponse partielle | Entrepreneur | 9 – Appel d'offres EG |
-| [[Q-003-priorisation-phase-1\|Q-003]] | Quels travaux seront en phase 1 et lesquels seront reportés ? | Priorisation des travaux | En attente pro | Architecte | 8 – Subventions travaux |
-| [[Q-004-travaux-sous-sol-ordre\|Q-004]] | Quels travaux sont prévus au sous-sol, et dans quel ordre ? | Sous-sol / séquence | En attente pro | Architecte + ing. structure | 5 – Avant-projet |
-| [[Q-005-impacts-vie-quotidienne\|Q-005]] | Quels impacts sur les logements, services et accès pendant les travaux ? | Vie quotidienne | Ouvert | Entrepreneur | 7 – Plans et devis |
-| [[Q-006-choix-thermopompes\|Q-006]] | Comment se fera le choix des thermopompes et sur quels critères ? | Thermopompes | En attente pro | GRT | 6 – Scénarios financiers |
-| [[Q-007-bornes-de-recharge\|Q-007]] | Combien de bornes de recharge seront installées ? | Électricité | En attente pro | Architecte + ing. méca-élec | 6 – Scénarios financiers |
-| [[Q-008-duree-travaux-sous-sol\|Q-008]] | Des travaux majeurs de sous-sol s'étalent sur combien de temps ? | À confirmer | À confirmer | À confirmer | À confirmer |
+| ID                                       | Question                                                                 | Thème                    | Statut            | Prochain retour             | Jalon de réponse         |
+| ---------------------------------------- | ------------------------------------------------------------------------ | ------------------------ | ----------------- | --------------------------- | ------------------------ |
+| [[Q-001-systeme-alarme-incendie\|Q-001]] | Le système d'alarme centralisé doit-il être remplacé ou retiré ?         | Sécurité incendie        | En attente pro    | Architecte                  | 5 – Avant-projet         |
+| [[Q-002-vidage-des-lockers\|Q-002]]      | Les lockers devront-ils être vidés, et à quel moment ?                   | Sous-sol / entreposage   | Réponse partielle | Entrepreneur                | 9 – Appel d'offres EG    |
+| [[Q-003-priorisation-phase-1\|Q-003]]    | Quels travaux seront en phase 1 et lesquels seront reportés ?            | Priorisation des travaux | En attente pro    | Architecte                  | 8 – Subventions travaux  |
+| [[Q-004-travaux-sous-sol-ordre\|Q-004]]  | Quels travaux sont prévus au sous-sol, et dans quel ordre ?              | Sous-sol / séquence      | En attente pro    | Architecte + ing. structure | 5 – Avant-projet         |
+| [[Q-005-impacts-vie-quotidienne\|Q-005]] | Quels impacts sur les logements, services et accès pendant les travaux ? | Vie quotidienne          | Ouvert            | Entrepreneur                | 7 – Plans et devis       |
+| [[Q-006-choix-thermopompes\|Q-006]]      | Comment se fera le choix des thermopompes et sur quels critères ?        | Thermopompes             | En attente pro    | GRT                         | 6 – Scénarios financiers |
+| [[Q-007-bornes-de-recharge\|Q-007]]      | Combien de bornes de recharge seront installées ?                        | Électricité              | En attente pro    | Architecte + ing. méca-élec | 6 – Scénarios financiers |
+| [[Q-008-duree-travaux-sous-sol\|Q-008]]  | Des travaux majeurs de sous-sol s'étalent sur combien de temps ?         | À confirmer              | À confirmer       | À confirmer                 | À confirmer              |
 
 ## Suivi du CA
 
